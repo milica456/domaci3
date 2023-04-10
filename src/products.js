@@ -8,38 +8,38 @@ import product6 from "./assets/6.jpg";
 export const PRODUCTS = [
     {
         id: 1,
-        productNme: "Pepperoni Pizza",
+        productName: "Pepperoni Pizza",
         price: 890.00,
-        priductImage: product1, 
+        productImage: product1, 
     },
     {
         id: 2,
-        productNme: "Margarita Pizza",
+        productName: "Margarita Pizza",
         price: 850.00,
-        priductImage: product2,
+        productImage: product2,
     },
     {
         id: 3,
-        productNme: "Special Pizza",
+        productName: "Special Pizza",
         price: 1200.00,
-        priductImage: product3,
+        productImage: product3,
     },
     {
         id: 4,
-        productNme: "Vegan Pizza",
+        productName: "Vegan Pizza",
         price: 800.00,
-        priductImage: product4,
+        productImage: product4,
     },
     {
         id: 5,
-        productNme: "Pineapple Pizza",
+        productName: "Pineapple Pizza",
         price: 1000.00,
-        priductImage: product5,
+        productImage: product5,
     },
     {
         id: 6,
-        productNme: "Mix Pizza",
+        productName: "Mix Pizza",
         price: 1300.00,
-        priductImage: product6,
+        productImage: product6,
     }
 ]
