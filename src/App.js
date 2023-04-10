@@ -4,11 +4,12 @@ import { Navbar } from './components/navbar';
 import Home from "./pages/home/home";
 import {Menu} from "./pages/menu/menu";
 import {Cart} from "./pages/cart/cart";
+import { MenuContextProvider } from './context/menu-context';
 
 function App() {
   return (
    <div className="App"> 
-    
+    <MenuContextProvider>
     <Router>
     <Navbar />
       <Routes>
@@ -18,6 +19,7 @@ function App() {
 
       </Routes>
     </Router>
+    </MenuContextProvider>
     </div>
   );
 }
