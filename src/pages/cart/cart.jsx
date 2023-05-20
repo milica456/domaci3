@@ -28,7 +28,7 @@ export const Cart = () => {
       <p> Ukupno: {totalAmount} rsd</p>
       <button onClick={() => navigate("/menu")}> Dodaj proizvod za kupovinu </button>
     </div>
- ) : ( <h1> Nema prozvoda za kupovinu  </h1>
+ ) : ( <h1> Nema prozvoda za kupovinu   </h1>
  )}
   </div>
   
