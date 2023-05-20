@@ -10,12 +10,13 @@ export const Product = (props) => {
     <div className='product'>
         <div style={ { backgroundImage: `url(${productImage})` }}> </div>
         <h1> {productName}</h1>
-        <p> {price}rsd</p>
+        <p> {price} rsd</p>
         <button className='addToCartBttn' onClick={() => addToCart(id)}>
-        Add to Cart {cartItemAmount > 0 && <> ({cartItemAmount}) </>}
+        order {cartItemAmount > 0 && <> ({cartItemAmount}) </>}
         </button>
     </div>
   );
 };
+
 
 

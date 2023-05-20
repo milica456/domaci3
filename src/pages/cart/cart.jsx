@@ -13,7 +13,7 @@ export const Cart = () => {
 
   return <div className='cart'>
     <div>
-      <h1> Your Cart Items</h1>
+      <h1> VAŠA NARUDŽBINA </h1>
     </div>
     <div className='cartItems'>
       {PRODUCTS.map((product) => {
@@ -25,13 +25,14 @@ export const Cart = () => {
     {totalAmount >0 ? (
       <div className='checkout'>
       
-      <p> Ukupno: rsd{totalAmount}</p>
-      <button onClick={() => navigate("/menu")}> Nastavi kupovinu </button>
+      <p> Ukupno: {totalAmount} rsd</p>
+      <button onClick={() => navigate("/menu")}> Dodaj proizvod za kupovinu </button>
     </div>
- ) : ( <h1> Korpa je prazna  </h1>
+ ) : ( <h1> Nema prozvoda za kupovinu  </h1>
  )}
   </div>
   
 };
+
 
 

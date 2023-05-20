@@ -7,6 +7,7 @@ import {Menu} from "./pages/menu/menu";
 import {Cart} from "./pages/cart/cart";
 import { MenuContextProvider } from './context/menu-context';
 
+
 function App() {
   return (
    <div className="App"> 
@@ -23,7 +24,7 @@ function App() {
    
     </MenuContextProvider>
     </div>
-  );
+);
 }
 
 export default App;

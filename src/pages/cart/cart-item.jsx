@@ -9,7 +9,7 @@ const {cartItems, addToCart, removeFromCart} = useContext(MenuContext);
   <div className='cartItemImage' style={{ backgroundImage: `url(${productImage})` }}> </div>
  
   <h1> {productName}</h1>
-  <p> {price}rsd</p>
+  <p> {price} rsd</p>
   <div className='countHandler'>
     <button onClick={() => removeFromCart(id)}> - </button>
     <input value={cartItems[id]} />
@@ -19,4 +19,5 @@ const {cartItems, addToCart, removeFromCart} = useContext(MenuContext);
 
   );
 };
+
 
